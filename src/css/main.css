@@ -208,7 +208,6 @@ label {
 
 #bottom {
 	background: #fff;
-	height: 100px;
 }
 
 .footer {
@@ -252,4 +251,31 @@ ul.ftrLinks li {
 .copyright{
 	font-size: 0.575em;
 	padding: 1em 0;
+}
+
+@media only screen and (max-width : 980px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.container {
+		width: 100%;
+		padding: 0.5em;
+	}
+	.col2, .col12 {
+		width: 100%;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	.container {
+		width: 100%;
+		padding: 0.5em;
+	}
+	.col2, .col12 {
+		width: 100%;
+	}
+
 }
