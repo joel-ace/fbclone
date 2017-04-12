@@ -126,6 +126,10 @@ a:hover {
 /*	padding: 1em 0;
 */}
 
+#mid .welcome_message form {
+	margin: 0.575em 0 0 0;
+}
+
 #mid .welcome_message input {
 	margin: 5px 0;
 	padding: 0.3em ;
@@ -165,17 +169,17 @@ label {
 	margin: -3px 0 0 0;
 }
 .submitBtn{
-	background: -webkit-linear-gradient(#67ae55, #578843);;
-	background: -moz-linear-gradient(#67ae55, #578843);
-	background: -webkit-linear-gradient(#67ae55, #578843);
-	background: -o-linear-gradient(#67ae55, #578843);
-	background: linear-gradient(#67ae55, #578843);
-	background: #69a74e;
-	padding: 0.5em;
+	background: #67ae55;
+    background: -webkit-linear-gradient(#67ae55, #578843); 
+    background: -o-linear-gradient(#67ae55, #578843); 
+    background: -moz-linear-gradient(#67ae55, #578843); 
+    background: linear-gradient(#67ae55, #578843); 
+	padding: 0.7em;
 	border: 0;
 	color: #fff;
 	font-size: 0.75em;
-	margin: 0.5em auto;
+	font-weight: bold;
+	margin: 1.2em 0;
 }
 
 
