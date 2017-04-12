@@ -175,7 +175,7 @@ label {
     background: -moz-linear-gradient(#67ae55, #578843); 
     background: linear-gradient(#67ae55, #578843); 
 	padding: 0.7em;
-	border: 0;
+	border: 1px solid #3b6e22;
 	color: #fff;
 	font-size: 0.75em;
 	font-weight: bold;
