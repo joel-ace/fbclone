@@ -151,9 +151,9 @@ a:hover {
 
 #mid .welcome_message input {
 	margin: 5px 0;
-	padding: 0.3em ;
+	padding: 0.5em ;
     border: 1px solid #b1bbcb;
-    font-size: 1em;
+    font-size: 0.9em;
 	width: 100%;
 }
 
