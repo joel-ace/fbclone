@@ -6,11 +6,16 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p {
 body {
 	margin: 0;
 	padding: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
 	font-size: 1.3em;
 	line-height: 1.2;
-	background: #E9E9EA;
-	color:#737373; 
-	line-height:16px;
+	color: #737373; 
+	background: #DDE0EC;
+    background: -webkit-linear-gradient(#fff, #DDE0EC); 
+    background: -o-linear-gradient(#fff, #DDE0EC); 
+    background: -moz-linear-gradient(#fff, #DDE0EC); 
+    background: linear-gradient(#fff, #DDE0EC); 
 }
 
 img {
@@ -60,13 +65,52 @@ img {
 	clear: both;
 }
 
-
-
-
 #top {
-	background: #133783;
-	height: 100px;
+	background: #3e5d9e;
+	border-bottom: 1px solid #0b2f7a;
+	padding: 10px;
 }
+
+#top input {
+	margin: 5px;
+	padding: 5px;
+    border: 1px solid #0b2f7a;
+}
+#top input[type=submit] {
+	color: #fff;
+	background: #3e68bf;
+}
+#top input[type=submit]:hover {
+	background: #2c4a8a;
+}
+
+
+#logo {
+	width: 150px;
+}
+
+#mid h3 {
+	font-size: 0.875em;
+	line-height: 1.5;
+	color: #0e385f;
+}
+
+#mid .welcome_message h2, #mid .welcome_message h3 {
+	color: #333;
+}
+#mid .welcome_message h2 {
+	font-size: 1.7em;
+}
+#mid .welcome_message h3 {
+	font-weight: normal;
+	font-size: 0.9em;
+}
+
+#mid .welcome_message p {
+	font-size: 0.575em;
+	padding: 1em 0;
+}
+
 
 
 #bottom {
