@@ -54,13 +54,21 @@ a:hover {
 	margin-right: -10px;	
 }
 
-.col2{
+.col2, .col12 {
 	margin: 0px;
 	padding-right: 10px;
 	padding-left: 10px;
 	float: left;
+}
+
+.col2{
 	width: 50%;
 }
+
+.col12{
+	width: 8.3333333%;
+}
+
 
 .left {
 	float: left;
@@ -191,15 +199,22 @@ label {
 	height: 100px;
 }
 
+.footer {
+	clear: both;
+}
+
+.footer_links {
+	padding: 0.3em 0;
+}
+
 .languageWrapper {
 	padding: 0.5em 0;
 	border-bottom: 1px solid #ddd;
 }
 
-ul.languages {
+ul.languages, ul.ftrLinks {
 	margin: 0px;
 	padding: 0;
-	margin-bottom: 1px solid #ddd;
 }
 ul.languages li {
 	padding: 0px;
@@ -213,6 +228,13 @@ ul.languages li a {
 }
 ul.languages li a:hover {
 	text-decoration: underline;
+}
+
+ul.ftrLinks li {
+	margin: 0 0 0.3em 0;
+	padding: 0px;
+	font-size: 0.5em;
+	list-style: none;
 }
 
 .copyright{
