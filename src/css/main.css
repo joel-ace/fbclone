@@ -1,4 +1,4 @@
-html, body, div, span, h1, h2, h3, h4, h5, h6, p {
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, li {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -26,6 +26,14 @@ img {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #365899;
+}
+a:hover {
+	text-decoration: underline;
 }
 
 .p20 {
@@ -108,12 +116,60 @@ img {
 
 #mid .welcome_message p {
 	font-size: 0.575em;
-	padding: 1em 0;
+/*	padding: 1em 0;
+*/}
+
+#mid .welcome_message input {
+	margin: 5px 0;
+	padding: 0.3em ;
+    border: 1px solid #b1bbcb;
+    font-size: 1em;
+    -webkit-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+	border-radius: 0.3em;
+	width: 100%;
 }
+
+#mid .welcome_message .select {
+	border: 1px solid #bdc7d8;
+	height: 2.5em;
+	margin: 3px 0 0 0;
+}
+
 
 
 
 #bottom {
 	background: #fff;
 	height: 100px;
+}
+
+.languageWrapper {
+	padding: 0.5em 0;
+	border-bottom: 1px solid #ddd;
+}
+
+ul.languages {
+	margin: 0px;
+	padding: 0;
+	margin-bottom: 1px solid #ddd;
+}
+ul.languages li {
+	padding: 0px;
+	margin: 0 3px 0 0;
+	display: inline-block;
+	font-size: 0.575em;
+	list-style: none;
+}
+ul.languages li a {
+	text-decoration: none;
+}
+ul.languages li a:hover {
+	text-decoration: underline;
+}
+
+.copyright{
+	font-size: 0.575em;
+	padding: 1em 0;
 }
