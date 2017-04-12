@@ -73,6 +73,13 @@ a:hover {
 	clear: both;
 }
 
+.border {
+    -webkit-border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+	border-radius: 0.3em;
+}
+
 #top {
 	background: #3e5d9e;
 	border-bottom: 1px solid #0b2f7a;
@@ -124,18 +131,53 @@ a:hover {
 	padding: 0.3em ;
     border: 1px solid #b1bbcb;
     font-size: 1em;
-    -webkit-border-radius: 0.3em;
-    -o-border-radius: 0.3em;
-    -moz-border-radius: 0.3em;
-	border-radius: 0.3em;
 	width: 100%;
 }
+
+#mid .welcome_message input[type=radio]{
+	display: inline-block;
+	width: auto;
+}
+
+
+#mid .welcome_message span.radio{
+	display: inline;
+}
+
+label {
+    display: inline-block;
+    border: none;
+    margin: 0.75em 0 0 0;
+}
+
 
 #mid .welcome_message .select {
 	border: 1px solid #bdc7d8;
 	height: 2.5em;
 	margin: 3px 0 0 0;
 }
+
+.select_sex {
+	margin: 0.75em 0;
+}
+
+.select_sex label {
+	margin: -3px 0 0 0;
+}
+.submitBtn{
+	background: -webkit-linear-gradient(#67ae55, #578843);;
+	background: -moz-linear-gradient(#67ae55, #578843);
+	background: -webkit-linear-gradient(#67ae55, #578843);
+	background: -o-linear-gradient(#67ae55, #578843);
+	background: linear-gradient(#67ae55, #578843);
+	background: #69a74e;
+	padding: 0.5em;
+	border: 0;
+	color: #fff;
+	font-size: 0.75em;
+	margin: 0.5em auto;
+}
+
 
 
 
